@@ -37,5 +37,6 @@ def results(location, term = ''):
 @app.route('/no-results')
 def no_results():
     return render_template('no-results.html')
-
+if __name__ == '__main__':
+    app.run()
 
