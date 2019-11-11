@@ -11,3 +11,4 @@ class ResultForm(FlaskForm):
     name = StringField('Name')
     address = StringField('Address')
     rating = StringField('Rating')
+    image = StringField('Image')
