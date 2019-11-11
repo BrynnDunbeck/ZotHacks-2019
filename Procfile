@@ -1,3 +1,3 @@
-web: gunicorn app:yelp
+web: gunicorn yelp:app
 
 web: gunicorn run:yelp
